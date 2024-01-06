@@ -16,6 +16,14 @@
   box-sizing: border-box;
 }
 
+.primary-bg {
+  background-color: #0052ff;
+}
+
+.primary-color {
+  color: #0052ff;
+}
+
 .Title {
   font-size: 46px;
   font-family: Uni-Neue;
@@ -28,11 +36,11 @@
 }
 
 .coming-span {
-  color: blue;
+  color: #0052ff;
   font-size: 10px;
   text-transform: uppercase;
   font-family: Uni-Neue;
-  border: 1px solid blue;
+  border: 1px solid #0052ff;
   border-radius: 4px;
   padding: 4px;
 }
