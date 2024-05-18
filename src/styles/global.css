@@ -357,11 +357,16 @@ button:hover .btn-icon {
   scroll-snap-align: start;
   height: 80vh;
   list-style: none;
-  background: #166534;
+  background: #16653430;
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
   border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.carousel .card:hover {
+  background: #166534;
+  color: #fff;
 }
 .carousel .card .img {
   background: #8b53ff;
